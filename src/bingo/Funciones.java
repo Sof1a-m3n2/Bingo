@@ -16,18 +16,18 @@ int band = 0;
 
     public String RandNumeroB (){
 String c ="";
-ArrayList<Integer> arrayB = new <Integer>ArrayList();
-    for(int i =0;i<15;i++){
-    band =N.nextInt(15 - 1 +1) + 1;
-            while (arrayB.contains(band)){
-            band = N.nextInt(15 - 1+1) + 1;
-            }
-    arrayB.add(band);
+    ArrayList<Integer> arrayB = new <Integer>ArrayList();
+        for(int i =0;i<15;i++){
+                band =N.nextInt(15 - 1 +1) + 1;
+                    while (arrayB.contains(band)){
+                        band = N.nextInt(15 - 1+1) + 1;
+                    }
+        arrayB.add(band);
+        }
+    for(int j=0;j<arrayB.size();j++){
+    c+=arrayB.get(j)+" ";
     }
-for(int j=0;j<arrayB.size();j++){
-c+=arrayB.get(j)+" ";
-}
-return c;
+    return c;
 }
 
 public String RandNumeroI (){

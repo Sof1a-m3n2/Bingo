@@ -86,7 +86,6 @@ Funciones obj = new Funciones();
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         uno.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        uno.setText("pene");
         uno.setEnabled(false);
         uno.setMaximumSize(new java.awt.Dimension(92, 112));
         uno.addActionListener(new java.awt.event.ActionListener() {
@@ -437,12 +436,8 @@ Funciones obj = new Funciones();
     }//GEN-LAST:event_cuatroActionPerformed
 
     private void unoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_unoActionPerformed
-String pene=uno.getText();
-String PENE="pene";
-        if(pene.equals(PENE)){
-        uno.setEnabled(true);
-        }
-        
+
+     
         
     }//GEN-LAST:event_unoActionPerformed
 
